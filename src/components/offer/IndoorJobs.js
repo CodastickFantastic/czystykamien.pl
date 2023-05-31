@@ -1,6 +1,6 @@
-import IsometricIndoor from "@/images/isometric_indoor2.webp";
 import styles from "@/styles/offer.module.scss";
 import Image from "next/image";
+import IsometricIndoor from "@/images/isometricIndoor.webp";
 import Sofa from "@/images/icons/sofaIcon.png";
 import Delivery from "@/images/icons/deliveryIcon.png";
 import Chair from "@/images/icons/chairIcon.png";

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import IsometricCar from "@/images/isometric_car2.webp";
+import IsometricCar from "@/images/isometricCar.webp";
 import styles from "@/styles/offer.module.scss";
 
 export default function CarJobs() {
