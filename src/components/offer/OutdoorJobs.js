@@ -1,4 +1,4 @@
-import IsometricOutdoor from "@/images/isometric_outdoor.webp";
+import IsometricOutdoor from "@/images/isometric_outdoor2.webp";
 import styles from "@/styles/offer.module.scss";
 import Image from "next/image";
 import Pool from "@/images/icons/poolIcon.png";

@@ -1,4 +1,4 @@
-import IsometricIndoor from "@/images/isometric_indoor.webp";
+import IsometricIndoor from "@/images/isometric_indoor2.webp";
 import styles from "@/styles/offer.module.scss";
 import Image from "next/image";
 import Sofa from "@/images/icons/sofaIcon.png";

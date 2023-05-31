@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import styles from "@/styles/offerPage.module.scss";
 import Image from "next/image";
 
-import Indoor from "@/images/indoor.webp";
+import Indoor from "@/images/indoor2.webp";
 import Outdoor from "@/images/outdoor.webp";
 import Detailing from "@/images/detailing.webp";
 
