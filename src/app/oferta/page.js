@@ -6,14 +6,11 @@ import Image from "next/image";
 import Indoor from "@/images/indoor.webp";
 import Outdoor from "@/images/outdoor.webp";
 import Detailing from "@/images/detailing.webp";
-import IsometricIndoor from "@/images/isometric_indoor.webp";
-
-import IsometricCar from "@/images/isometric_car.webp";
 
 import Link from "next/link";
+import CarJobs from "@/components/offer/CarJobs";
 import OutdoorJobs from "@/components/offer/OutdoorJobs";
 import IndoorJobs from "@/components/offer/IndoorJobs";
-import CarJobs from "@/components/offer/CarJobs";
 
 export default function OfferPage() {
   return (
