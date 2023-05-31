@@ -1,0 +1,84 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  input {
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    padding: 1.3em 2em;
+    margin: 8px 0;
+    border-radius: 50px;
+    border: 1px solid #00ffff;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+  }
+
+  input::placeholder {
+    color: #adadad;
+    font-family: "Nunito";
+  }
+
+  textarea {
+    height: 100px;
+    padding: 10px 0;
+    text-align: center;
+    justify-content: center;
+    width: 70%;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: 1px solid #00ffff;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+  }
+
+  textarea::placeholder {
+    color: #adadad;
+    font-family: "Nunito";
+  }
+
+  label {
+    display: flex;
+    width: 70%;
+    cursor: pointer;
+    color: #fff;
+    font-size: 0.9rem;
+    input {
+      height: 15px;
+      width: 15px;
+      padding: 0;
+      margin: 0;
+      margin-top: 2px;
+      margin-right: 10px;
+      border: 1px solid #00ffff;
+      background: transparent;
+      outline: none;
+      cursor: pointer;
+      border-radius: 2px;
+    }
+  }
+
+  button {
+    width: 70%;
+    height: 36.6px;
+    text-align: center;
+    color: #000;
+    margin: 8px 0;
+    border: none;
+    border-radius: 50px;
+    background: #00ffff;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  button:hover {
+    background: #000;
+    border: 1px solid #00ffff;
+    color: #fff;
+  }
+}

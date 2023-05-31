@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Nunito";
+}
+
+.homeBackground {
+  background-image: url("/images/hero.webp");
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pagesBackground {
+  background-image: url("/images/pagesBackground.webp");
+  // min-height: 100vh;
+  width: 100%;
+  // background-position: center;
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.map-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
