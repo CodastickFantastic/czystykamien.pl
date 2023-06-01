@@ -1,5 +1,5 @@
 .bottomNav {
-  width: 100dvw;
+  width: 100%;
   height: 120px;
   background: linear-gradient(0deg, #000000 14.58%, rgba(0, 0, 0, 0) 100%);
   position: absolute;
@@ -15,14 +15,14 @@
     justify-content: center;
     align-items: center;
     margin-left: auto;
-    a{
-        margin: 0 10px;
-        text-decoration: none;
-        color: #fff;
-        font-size: 1.2rem;
+    a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.2rem;
     }
-    a:hover{
-        color: #adadad;
+    a:hover {
+      color: #adadad;
     }
   }
 }
@@ -43,14 +43,151 @@
     justify-content: center;
     align-items: center;
     margin-left: auto;
-    a{
-        margin: 0 10px;
+    a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.2rem;
+    }
+    a:hover {
+      color: #adadad;
+    }
+  }
+}
+
+.mobileNav {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .topNav {
+    display: none;
+  }
+  .bottomNav {
+    display: none;
+  }
+
+  .mobileNav {
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100dvh;
+    width: 100dvw;
+    pointer-events: none;
+
+    .logo {
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      pointer-events: all;
+      img {
+        height: 100%;
+        padding: 5px 0;
+        width: unset;
+        object-fit: contain;
+        margin: auto;
+      }
+    }
+
+    .logo.main {
+      background: linear-gradient(
+        180deg,
+        #000000 14.58%,
+        rgba(0, 0, 0, 0) 100%
+      );
+    }
+
+    .logo.nomral {
+      background-color: #adadad;
+    }
+
+    .navigation {
+      height: 100px;
+      background: linear-gradient(0deg, #000000 14.58%, rgba(0, 0, 0, 0) 100%);
+      display: flex;
+      justify-content: space-evenly;
+      align-items: baseline;
+      a {
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+        width: 16%;
+        height: 100%;
         text-decoration: none;
         color: #fff;
-        font-size: 1.2rem;
+        pointer-events: all;
+        img {
+          width: 60px;
+          height: 60px;
+          object-fit: contain;
+          margin: auto;
+        }
+      }
     }
-    a:hover{
-        color: #adadad;
+  }
+}
+
+@media (max-width: 600px) {
+  .mobileNav {
+    .navigation {
+      a {
+        font-size: 0.9rem;
+        img {
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .mobileNav {
+    .navigation {
+      a {
+        font-size: 0.8rem;
+        img {
+          margin-bottom: 5px;
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  .mobileNav {
+    .navigation {
+      a {
+        font-size: 0.7rem;
+        img {
+          margin-bottom: 5px;
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 300px) {
+  .mobileNav {
+    .navigation {
+      a {
+        font-size: 0.55rem;
+        img {
+          margin-bottom: 5px;
+          width: 35px;
+          height: 35px;
+        }
+      }
     }
   }
 }

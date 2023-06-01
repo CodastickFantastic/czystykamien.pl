@@ -9,10 +9,10 @@ import styles from "@/styles/contactPage.module.scss";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 
-function KontaktPage({ params, req }) {
+function KontaktPage() {
   return (
     <div className="pagesBackground">
-      <Navigation type="top" />
+      <Navigation type="top" page="main"/>
       <main className={styles.main}>
         <div className="container">
           <h1>Kontakt</h1>

@@ -52,3 +52,10 @@
     }
   }
 }
+
+@media(max-width: 900px){
+  .main{
+    min-height: unset;
+    position: absolute;
+  }
+}

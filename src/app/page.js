@@ -6,7 +6,7 @@ import styles from "@/styles/homePage.module.scss";
 export default function Home() {
   return (
     <div className="homeBackground">
-        <Navigation type="bottom"/>
+        <Navigation type="bottom" page="main"/>
       <main>
         <div className={styles.heroSection}>
           <div className="container">
