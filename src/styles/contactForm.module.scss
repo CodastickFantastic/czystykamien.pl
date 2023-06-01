@@ -82,3 +82,23 @@
     color: #fff;
   }
 }
+
+@media(max-width: 900px){
+  .contactForm{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    input{
+      width: 90%;
+    }
+    textarea{
+      width: 90%;
+    }
+    label{
+      width: 90%;
+    }
+    button{
+      width: 90%;
+    }
+  }
+}

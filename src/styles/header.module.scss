@@ -59,6 +59,8 @@
   display: none;
 }
 
+// Mobile Navigation Styling
+
 @media (max-width: 900px) {
   .topNav {
     display: none;
@@ -68,15 +70,15 @@
   }
 
   .mobileNav {
-    position: absolute;
+    position: fixed!important;
     z-index: 99;
     top: 0;
     left: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100dvh;
-    width: 100dvw;
+    height: calc(100vh + 1px);
+    width: 100vw;
     pointer-events: none;
 
     .logo {
@@ -93,7 +95,7 @@
       }
     }
 
-    .logo.main {
+    .logo {
       background: linear-gradient(
         180deg,
         #000000 14.58%,
@@ -101,8 +103,8 @@
       );
     }
 
-    .logo.nomral {
-      background-color: #adadad;
+    .logo.blackBg {
+      background-color: #000000;
     }
 
     .navigation {
@@ -130,6 +132,10 @@
         }
       }
     }
+
+    .navigation.blackBg {
+      background: #000000;
+    }
   }
 }
 
@@ -150,6 +156,7 @@
 @media (max-width: 460px) {
   .mobileNav {
     .navigation {
+      height: 80px;
       a {
         font-size: 0.8rem;
         img {

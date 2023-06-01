@@ -8,11 +8,15 @@ import Location from "@/images/icons/locationIcon.png";
 import styles from "@/styles/contactPage.module.scss";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
+import MobileNav from "@/components/MobileNav";
 
 function KontaktPage() {
   return (
-    <div className="pagesBackground">
-      <Navigation type="top" page="main"/>
+    <div className={`pagesBackground ${styles.mobile}`}>
+      <header>
+        <Navigation type="top" page="normal" />
+        <MobileNav page="main" />
+      </header>
       <main className={styles.main}>
         <div className="container">
           <h1>Kontakt</h1>
@@ -54,6 +58,7 @@ function KontaktPage() {
           </div>
         </div>
       </main>
+
       <Footer />
     </div>
   );

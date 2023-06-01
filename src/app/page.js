@@ -2,11 +2,15 @@ import Link from "next/link";
 import Navigation from "@/components/Header";
 
 import styles from "@/styles/homePage.module.scss";
+import MobileNav from "@/components/MobileNav";
 
 export default function Home() {
   return (
     <div className="homeBackground">
-        <Navigation type="bottom" page="main"/>
+      <header>
+        <Navigation type="bottom" />
+        <MobileNav page="main" />
+      </header>
       <main>
         <div className={styles.heroSection}>
           <div className="container">
