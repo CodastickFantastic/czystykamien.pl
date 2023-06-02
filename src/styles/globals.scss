@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #000;
   color: #fff;
@@ -38,4 +42,9 @@ body {
   height: 100%;
   width: 100%;
   border-radius: 10px;
+}
+
+// Offer Anchor Scroll Fix
+#a1, #a2, #a3, #a4, #a5, #a6, #a7, #a8{
+  scroll-margin-top: 100px;
 }

@@ -1,4 +1,6 @@
 .transparentBg {
+  margin-top: -1px;
+  margin-bottom: -1px;
   padding: 40px 0;
   background: linear-gradient(
     180deg,
@@ -32,27 +34,31 @@
     color: #fff;
     position: absolute;
     cursor: pointer;
+    a{
+      text-decoration: none;
+      color: #fff;
+    }
   }
 
-  .circle::after {
-    opacity: 0;
-    content: "Szczegóły poniżej...";
-    width: 150px;
-    height: 30px;
-    border-radius: 5px;
-    background-color: hsla(0, 0%, 0%, 0.8);
-    text-align: center;
-    position: absolute;
-    top: -35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s ease-in-out;
-  }
+  // .circle::after {
+  //   opacity: 0;
+  //   content: "Szczegóły poniżej...";
+  //   width: 150px;
+  //   height: 30px;
+  //   border-radius: 5px;
+  //   background-color: hsla(0, 0%, 0%, 0.8);
+  //   text-align: center;
+  //   position: absolute;
+  //   top: -35px;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   transition: all 0.3s ease-in-out;
+  // }
 
-  .circle:hover::after {
-    opacity: 1;
-  }
+  // .circle:hover::after {
+  //   opacity: 1;
+  // }
 
   .isometricOutdoorContainer {
     width: 500px;
@@ -98,10 +104,10 @@
     }
   }
 
-  .isometricCarContainer{
+  .isometricCarContainer {
     margin: auto;
     width: 500px;
-  }  
+  }
 }
 
 .blackBg {
@@ -169,16 +175,76 @@
       }
     }
 
-    .offerSpecLong{
+    .offerSpecLong {
       height: unset;
       width: 220px;
     }
   }
 
-  .comming{
+  .comming {
     text-align: center;
     color: #00ffff;
     margin-bottom: 20px;
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .transparentBg {
+    img {
+      width: 300px;
+    }
+
+    .isometricOutdoorContainer,
+    .isometricIndoorContainer,
+    .isometricCarContainer {
+      width: 300px;
+    }
+  }
+
+  .blackBg{
+    p:last-child {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .transparentBg {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+  .blackBg {
+    padding: 0px;
+    .offerContainer {
+      .offerSpec {
+        width: 220px;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .transparentBg {
+    h2 {
+      font-size: 2rem;
+    }
+    img {
+      width: 250px;
+    }
+    .isometricOutdoorContainer,
+    .isometricIndoorContainer,
+    .isometricCarContainer {
+      width: 250px;
+    }
+  }
+  .blackBg {
+    padding: 0px;
+    .offerContainer {
+      .offerSpec {
+        width: 220px;
+      }
+    }
   }
 }

@@ -15,7 +15,7 @@ function KontaktPage() {
     <div className={`pagesBackground ${styles.mobile}`}>
       <header>
         <Navigation type="top" page="normal" />
-        <MobileNav page="main" />
+        <MobileNav page="page" />
       </header>
       <main className={styles.main}>
         <div className="container">

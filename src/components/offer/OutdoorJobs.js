@@ -27,19 +27,19 @@ export default function OutdoorJobs() {
             src={IsometricOutdoor}
             alt="Ilustracja izometryczna prac wykonywanych na zewnątrz budynków"
           />
-          <span className={`${styles.circle} ${styles.o1}`}>1</span>
-          <span className={`${styles.circle} ${styles.o2}`}>2</span>
-          <span className={`${styles.circle} ${styles.o3}`}>3</span>
-          <span className={`${styles.circle} ${styles.o4}`}>4</span>
-          <span className={`${styles.circle} ${styles.o5}`}>5</span>
-          <span className={`${styles.circle} ${styles.o6}`}>6</span>
+          <span className={`${styles.circle} ${styles.o1}`}><a href="#a1">1</a></span>
+          <span className={`${styles.circle} ${styles.o2}`}><a href="#a2">2</a></span>
+          <span className={`${styles.circle} ${styles.o3}`}><a href="#a3">3</a></span>
+          <span className={`${styles.circle} ${styles.o4}`}><a href="#a4">4</a></span>
+          <span className={`${styles.circle} ${styles.o5}`}><a href="#a5">5</a></span>
+          <span className={`${styles.circle} ${styles.o6}`}><a href="#a6">6</a></span>
         </div>
       </div>
 
       <div className={styles.blackBg}>
         <div className="container">
           <div className={styles.offerContainer}>
-            <div className={styles.offerSpec}>
+            <div className={styles.offerSpec} id="a1">
               <p className={styles.number}>1</p>
               <Image
                 src={Pool}
@@ -64,7 +64,7 @@ export default function OutdoorJobs() {
               />
               <p>Czyszczenie Hydrauliki</p>
             </div>
-            <div className={styles.offerSpec}>
+            <div className={styles.offerSpec} id="a2">
               <p className={styles.number}>2</p>
               <Image
                 src={Paving}
@@ -89,7 +89,7 @@ export default function OutdoorJobs() {
               />
               <p>Piasek w cenie</p>
             </div>
-            <div className={styles.offerSpec}>
+            <div className={styles.offerSpec} id="a3">
               <p className={styles.number}>3</p>
               <Image
                 src={Fence}
@@ -114,7 +114,7 @@ export default function OutdoorJobs() {
               />
               <p>Olej w cenie</p>
             </div>
-            <div className={styles.offerSpec}>
+            <div className={styles.offerSpec} id="a4">
               <p className={styles.number}>4</p>
               <Image
                 src={Elevation}
@@ -139,7 +139,7 @@ export default function OutdoorJobs() {
               />
               <p>Obie strony w cenie</p>
             </div>
-            <div className={styles.offerSpec}>
+            <div className={styles.offerSpec} id="a5">
               <p className={styles.number}>5</p>
               <Image src={Roof} className={styles.mainIcon} alt="Ikona dachu" />
               <h3>Mycie Dachów</h3>
@@ -160,7 +160,7 @@ export default function OutdoorJobs() {
               />
               <p>Zabezpieczenie w cenie</p>
             </div>
-            <div className={`${styles.offerSpec2} ${styles.offerSpec}`}>
+            <div className={`${styles.offerSpec2} ${styles.offerSpec}`} id="6">
               <p className={styles.number}>6</p>
               <Image
                 src={Garden}

@@ -37,7 +37,7 @@ export default function MobileNav({ page }) {
         </Link>
       </div>
       <nav
-        className={`${styles.navigation} ${page === "main" && styles.blackBg}`}
+        className={`${styles.navigation} ${page === "page" && styles.blackBg}`}
       >
         <Link href="/o-nas">
           <Image src={About} />O NAS

@@ -56,9 +56,8 @@
 
 @media (max-width: 900px) {
   .mobile {
-    height: 100vh;
+    width: 100wh;
     padding-top: 100px;
-    padding-bottom: 1300px;
     .main {
       min-height: unset;
       .iconSection {
@@ -78,7 +77,6 @@
 
 @media (max-width: 655px) {
   .mobile {
-    padding-bottom: 1600px;
     .main {
       .iconSection {
         .tile {
@@ -115,7 +113,6 @@
 
 @media (max-width: 590px) {
   .mobile {
-    padding-bottom: 2000px;
     .main {
       p {
         font-size: 1.2rem;
@@ -150,23 +147,5 @@
         }
       }
     }
-  }
-}
-
-@media (max-width: 420px) {
-  .mobile {
-    padding-bottom: 2450px;
-  }
-}
-
-@media (max-width: 400px) {
-  .mobile {
-    padding-bottom: 2500px;
-  }
-}
-
-@media (max-width: 310px) {
-  .mobile {
-    padding-bottom: 2600px;
   }
 }

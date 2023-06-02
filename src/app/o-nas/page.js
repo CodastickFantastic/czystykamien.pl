@@ -14,11 +14,15 @@ import Checkbox from "@/images/icons/checkboxIcon.png";
 
 import styles from "@/styles/about.module.scss";
 import ContactForm from "@/components/ContactForm";
+import MobileNav from "@/components/MobileNav";
 
 export default function AboutUsPage({ params, req }) {
   return (
-    <div className="pagesBackground">
-      <Navigation type="top" />
+    <div className={`pagesBackground ${styles.mobile}`}>
+      <header>
+        <Navigation type="top" page="normal" />
+        <MobileNav page="page" />
+      </header>
       <main className={styles.main}>
         <div className={styles.blackBg1}>
           <div className="container">
@@ -159,11 +163,11 @@ export default function AboutUsPage({ params, req }) {
               </div>
               <div className={styles.feature}>
                 <Image src={Checkbox} />
-                <p>Gwarancja Jakości</p>
+                <p>Ubezpieczenie OC</p>
               </div>
               <div className={styles.feature}>
                 <Image src={Checkbox} />
-                <p>Ubezpieczenie OC</p>
+                <p>Gwarancja Jakości</p>
               </div>
             </div>
             <div className={styles.right}>

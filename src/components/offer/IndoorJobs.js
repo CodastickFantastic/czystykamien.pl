@@ -18,15 +18,15 @@ export default function IndoorJobs() {
             src={IsometricIndoor}
             alt="Ilustracja izometryczna prac wykonywanych na wewnątrz"
           />
-          <span className={`${styles.circle} ${styles.i1}`}>1</span>
-          <span className={`${styles.circle} ${styles.i2}`}>2</span>
+          <span className={`${styles.circle} ${styles.i1}`}><a href="#a7">1</a></span>
+          <span className={`${styles.circle} ${styles.i2}`}><a href="#a8">2</a></span>
         </div>
       </div>
 
       <div className={styles.blackBg}>
         <div className="container">
           <div className={styles.offerContainer}>
-            <div className={`${styles.offerSpecLong} ${styles.offerSpec}`}>
+            <div className={`${styles.offerSpecLong} ${styles.offerSpec}`} id="a7">
               <p className={styles.number}>1</p>
               <Image
                 src={Sofa}
@@ -56,7 +56,7 @@ export default function IndoorJobs() {
               />
               <p>Dojazd w cenie</p>
             </div>
-            <div className={`${styles.offerSpecLong} ${styles.offerSpec}`}>
+            <div className={`${styles.offerSpecLong} ${styles.offerSpec}`} id="a8">
               <p className={styles.number}>2</p>
               <Image
                 src={Carpet}

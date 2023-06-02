@@ -11,20 +11,24 @@ import Link from "next/link";
 import CarJobs from "@/components/offer/CarJobs";
 import OutdoorJobs from "@/components/offer/OutdoorJobs";
 import IndoorJobs from "@/components/offer/IndoorJobs";
+import MobileNav from "@/components/MobileNav";
 
 export default function OfferPage() {
   return (
-    <div className="pagesBackground">
-      <Navigation type="top" />
+    <div className={`pagesBackground ${styles.mobile}`}>
+      <header>
+        <Navigation type="top" page="normal" />
+        <MobileNav page="page" />
+      </header>
       <main className={styles.main}>
         <div className={styles.blackBg1}>
           <div className="container">
             <h1>OFERTA</h1>
             <p>
               W naszej ofercie znajdą państwo rozmaity wybór usług.
-              <br />
+              <br className={styles.br} /><br/>
               Wykonujemy prace zarówno zewnętrzne jak i te wewnątrz pomieszczeń.
-              <br />
+              <br className={styles.br}/><br/>
               Poznaj szczegóły naszej oferty i zapoznaj się sugerowanymi cenami.
             </p>
             <div className={styles.services}>
