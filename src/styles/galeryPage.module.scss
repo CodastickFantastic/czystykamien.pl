@@ -1,6 +1,13 @@
 .main {
   background-color: black;
 
+  h1{
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 20px;
+  }
+
   .galery {
     padding: 40px 0;
     display: flex;

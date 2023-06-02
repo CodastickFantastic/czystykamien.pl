@@ -22,6 +22,7 @@ export default function GaleryPage() {
       </header>
       <main className={styles.main}>
         <div className="container">
+          <h1>Galeria</h1>
           <div className={styles.galery}>
             <div className={styles.imageWrapper}>
               <Image src={C1} />
