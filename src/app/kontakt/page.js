@@ -39,7 +39,7 @@ function KontaktPage() {
             <div className={styles.tile}>
               <Image src={Phone} width={75} height={75} />
               <h3>Telefon</h3>
-              <p>+48 501 721 417</p>
+              <p>501 721 417</p>
             </div>
             <div className={styles.tile}>
               <Image src={Email} width={75} height={75} />
