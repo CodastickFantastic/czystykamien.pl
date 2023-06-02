@@ -12,11 +12,15 @@ import Pressure from "@/images/icons/pressureIcon.png";
 import Temperature from "@/images/icons/temperatureIcon.png";
 import Pipe from "@/images/icons/pipeIcon.png";
 import Fan from "@/images/icons/fanIcon.png";
+import MobileNav from "@/components/MobileNav";
 
 export default function EquipmentPage() {
   return (
-    <div className="pagesBackground">
-      <Header type="top" />
+    <div className={`pagesBackground ${styles.mobile}`}>
+      <header>
+        <Header type="top" page="normal" />
+        <MobileNav page="page" />
+      </header>
       <main className={styles.main}>
         <div className={styles.blackBg}>
           <div className="container">
