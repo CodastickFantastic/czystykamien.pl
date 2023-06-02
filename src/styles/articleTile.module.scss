@@ -1,0 +1,99 @@
+.articleTile {
+  width: 30%;
+  margin: 20px;
+  //   border: 1px solid #00ffff;
+  border-radius: 15px/15px;
+  overflow: hidden;
+
+  .imageWrapper {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    img {
+      width: 100%;
+      height: 100%;
+      border: 1px solid #000;
+    }
+    .shadow {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(0deg, #000000 10%, rgba(0, 0, 0, 0) 50%);
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  .articleDescription {
+    padding: 5px 10px;
+    h2 {
+      color: #fff;
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #fff;
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+    .articleFooter {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      .details {
+        .cyan {
+          margin: 0;
+          color: #00ffff;
+          white-space: nowrap;
+          span {
+            color: #fff;
+          }
+        }
+      }
+      .moreInfo {
+        width: 150px;
+        height: 40px;
+        border: 1px solid #00ffff;
+        border-radius: 50px;
+        background: transparent;
+        color: #00ffff;
+        a {
+          color: #00ffff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .articleTile {
+    width: 45%;
+  }
+}
+
+@media (max-width: 800px) {
+  .articleTile {
+    width: 500px;
+  }
+}
+
+@media (max-width: 550px) {
+  .articleTile {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .articleTile {
+    .articleFooter {
+      flex-direction: column;
+      align-items: flex-start !important;
+      .moreInfo {
+        margin-left: auto;
+        margin-right: 0;
+        margin-top: 15px;
+      }
+    }
+  }
+}
