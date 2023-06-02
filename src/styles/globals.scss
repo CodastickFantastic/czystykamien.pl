@@ -4,14 +4,22 @@
   box-sizing: border-box;
 }
 
+
 html {
   scroll-behavior: smooth;
+  overflow: hidden;
+  width: 100%;
 }
 
 body {
   background-color: #000;
   color: #fff;
   font-family: "Nunito";
+  height: 100%;
+  position: fixed;
+  overflow-y: auto;
+  width: 100%;
+  --webkit-overflow-scrolling: touch;
 }
 
 .homeBackground {
