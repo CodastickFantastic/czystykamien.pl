@@ -49,7 +49,7 @@ export default function EquipmentPage() {
                 zarówno sprzęt jak i chemię do zlecanej przez Ciebie pracy.
               </p>
               <div className={styles.imageContainer}>
-                <Image src={Worker} />
+                <Image src={Worker} alt="Pracownik firma sprzątająca" />
                 <div className={styles.shadow} />
               </div>
             </div>
@@ -65,7 +65,7 @@ export default function EquipmentPage() {
                 </p>
                 <div className={styles.featuresContainer}>
                   <div className={styles.feature}>
-                    <Image src={Temperature} />
+                    <Image src={Temperature} alt="Ikona temometru" />
                     <p>
                       MAX
                       <br />
@@ -73,7 +73,7 @@ export default function EquipmentPage() {
                     </p>
                   </div>
                   <div className={styles.feature}>
-                    <Image src={Pressure} />
+                    <Image src={Pressure} alt="Ikona ciśnienia" />
                     <p>
                       MAX
                       <br />
@@ -81,7 +81,7 @@ export default function EquipmentPage() {
                     </p>
                   </div>
                   <div className={styles.feature}>
-                    <Image src={Pipe} />
+                    <Image src={Pipe} alt="Ikona rury" />
                     <p>
                       MAX
                       <br />
@@ -91,7 +91,7 @@ export default function EquipmentPage() {
                 </div>
               </div>
               <div className={styles.right}>
-                <Image src={HDS5} />
+                <Image src={HDS5} alt="Myjka karcher HDS 5/15"/>
               </div>
             </div>
             <div className={styles.equipmentContainer}>
@@ -105,7 +105,7 @@ export default function EquipmentPage() {
                 </p>
                 <div className={styles.featuresContainer}>
                   <div className={styles.feature}>
-                    <Image src={Temperature} />
+                    <Image src={Temperature} alt="Ikona temometru" />
                     <p>
                       MAX
                       <br />
@@ -113,7 +113,7 @@ export default function EquipmentPage() {
                     </p>
                   </div>
                   <div className={styles.feature}>
-                    <Image src={Pressure} />
+                    <Image src={Pressure} alt="Ikona ciśnienia" />
                     <p>
                       MAX
                       <br />
@@ -121,7 +121,7 @@ export default function EquipmentPage() {
                     </p>
                   </div>
                   <div className={styles.feature}>
-                    <Image src={Pipe} />
+                    <Image src={Pipe} alt="Ikona rury"/>
                     <p>
                       MAX
                       <br />
@@ -131,7 +131,7 @@ export default function EquipmentPage() {
                 </div>
               </div>
               <div className={styles.right}>
-                <Image src={HDS8} />
+                <Image src={HDS8} alt="Myjka karcher HDS 8/18"/>
               </div>
             </div>
             <div className={styles.equipmentContainer}>
@@ -146,7 +146,7 @@ export default function EquipmentPage() {
                 </p>
                 <div className={styles.featuresContainer}>
                   <div className={styles.feature}>
-                    <Image src={Extraction} />
+                    <Image src={Extraction} alt="Ikona ekstrakcji"/>
                     <p>
                       MAX
                       <br />
@@ -154,7 +154,7 @@ export default function EquipmentPage() {
                     </p>
                   </div>
                   <div className={styles.feature}>
-                    <Image src={Pressure} />
+                    <Image src={Pressure} alt="Ikona ciśnienia" />
                     <p>
                       MAX
                       <br />
@@ -162,7 +162,7 @@ export default function EquipmentPage() {
                     </p>
                   </div>
                   <div className={styles.feature}>
-                    <Image src={Fan} />
+                    <Image src={Fan} alt="Ikona wiatraka"/>
                     <p>
                       MAX
                       <br />
@@ -172,7 +172,7 @@ export default function EquipmentPage() {
                 </div>
               </div>
               <div className={styles.right}>
-                <Image src={Puzzi} />
+                <Image src={Puzzi} alt="Odkurzacz karcher Puzzi 30/4"/>
               </div>
             </div>
           </div>

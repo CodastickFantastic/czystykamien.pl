@@ -27,7 +27,7 @@ export default function AboutUsPage({ params, req }) {
         <div className={styles.blackBg1}>
           <div className="container">
             <div className={styles.shadowContainer1}>
-              <Image src={HeroImage} className={styles.firstImg} />
+              <Image src={HeroImage} className={styles.firstImg} alt="Osoba myjąca kostkę brkuową"/>
               <div className={styles.innerShadow1} />
             </div>
           </div>
@@ -47,12 +47,12 @@ export default function AboutUsPage({ params, req }) {
               Nie zostawiamy miejsca na błędy oraz poprawki. Zaufaj nam a
               przekonasz się, że praca zostanie wykonana w rzetelny sposób.
             </p>
-            <Image src={Czyszcenie} />
+            <Image src={Czyszcenie} alt="Czyszcenie kostki brukowej wraz ze sprzętem"/>
           </div>
         </div>
         <div className={styles.transparentBg}>
           <div className={`container ${styles.pros}`}>
-            <Image src={Gwarancja} />
+            <Image src={Gwarancja} alt="Ikona gwarancja"/>
             <h3>Gwarancja Jakości oraz Najniższej Ceny</h3>
           </div>
         </div>
@@ -71,14 +71,14 @@ export default function AboutUsPage({ params, req }) {
               zejdziemy dla Ciebie z ceny wykonywanej usługi.
             </p>
             <div className={styles.smallRoundShadowContainer}>
-              <Image src={CzystaKostka} />
+              <Image src={CzystaKostka} alt="Efekt mycia kostki brukowej myjką ciśnieniową"/>
               <div className={styles.innerShadowSmallRound} />
             </div>
           </div>
         </div>
         <div className={styles.transparentBg}>
           <div className={`container ${styles.pros}`}>
-            <Image src={Profesjonalizm} />
+            <Image src={Profesjonalizm} alt="Ikona profesjonalizm"/>
             <h3>Usługa Szyta Na Miarę</h3>
           </div>
         </div>
@@ -97,14 +97,14 @@ export default function AboutUsPage({ params, req }) {
               należyty sposób.
             </p>
             <div className={styles.smallRoundShadowContainer}>
-              <Image src={SzczesliwyPracownik} />
+              <Image src={SzczesliwyPracownik} alt="Pracownik"/>
               <div className={styles.innerShadowSmallRound} />
             </div>
           </div>
         </div>
         <div className={styles.transparentBg}>
           <div className={`container ${styles.pros}`}>
-            <Image src={Bezpieczenstwo} />
+            <Image src={Bezpieczenstwo} alt="Ikona bezpieczeństwo"/>
             <h3>Zabezpieczenie To Podstawa</h3>
           </div>
         </div>
@@ -128,7 +128,7 @@ export default function AboutUsPage({ params, req }) {
               detergenty, aby nie zagrażały przyrodzie.
             </p>
             <div className={styles.smallRoundShadowContainer}>
-              <Image src={Chemia} />
+              <Image src={Chemia} alt="Chemia do mycia kostki brukowej"/>
               <div className={styles.innerShadowSmallRound} />
             </div>
           </div>
@@ -138,35 +138,35 @@ export default function AboutUsPage({ params, req }) {
           <div className={styles.contactForm}>
             <div className={styles.left}>
               <div className={styles.feature}>
-                <Image src={Checkbox} />
+                <Image src={Checkbox} alt="Ikona sukcesu" />
                 <p>Najlepszy Sprzęt Na Rynku</p>
               </div>
               <div className={styles.feature}>
-                <Image src={Checkbox} />
+                <Image src={Checkbox} alt="Ikona sukcesu" />
                 <p>Gwarancja Najniższej Ceny</p>
               </div>
               <div className={styles.feature}>
-                <Image src={Checkbox} />
+                <Image src={Checkbox} alt="Ikona sukcesu" />
                 <p>Szybkie Terminy Realizacji</p>
               </div>
               <div className={styles.feature}>
-                <Image src={Checkbox} />
+                <Image src={Checkbox} alt="Ikona sukcesu" />
                 <p>Tylko Pozytywne Opinie</p>
               </div>
               <div className={styles.feature}>
-                <Image src={Checkbox} />
+                <Image src={Checkbox} alt="Ikona sukcesu" />
                 <p>Profesjonalne Podejście</p>
               </div>
               <div className={styles.feature}>
-                <Image src={Checkbox} />
+                <Image src={Checkbox} alt="Ikona sukcesu" />
                 <p>Profesjonalna Chemia</p>
               </div>
               <div className={styles.feature}>
-                <Image src={Checkbox} />
+                <Image src={Checkbox} alt="Ikona sukcesu" />
                 <p>Ubezpieczenie OC</p>
               </div>
               <div className={styles.feature}>
-                <Image src={Checkbox} />
+                <Image src={Checkbox} alt="Ikona sukcesu" />
                 <p>Gwarancja Jakości</p>
               </div>
             </div>

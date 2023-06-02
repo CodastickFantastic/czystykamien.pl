@@ -40,26 +40,26 @@ export default function MobileNav({ page }) {
         className={`${styles.navigation} ${page === "page" && styles.blackBg}`}
       >
         <Link href="/o-nas">
-          <Image src={About} />O NAS
+          <Image src={About} alt="Ikona o nas"/>O NAS
         </Link>
         <Link href="/blog">
-          <Image src={Blog} />
+          <Image src={Blog} alt="Ikona blog"/>
           BLOG
         </Link>
         <Link href="/oferta">
-          <Image src={Offer} />
+          <Image src={Offer} alt="Ikona oferta"/>
           OFERTA
         </Link>
         <Link href="/sprzet">
-          <Image src={Tools} />
+          <Image src={Tools} alt="Ikona sprzęt"/>
           SPRZĘT
         </Link>
         <Link href="/galeria">
-          <Image src={Galery} />
+          <Image src={Galery} alt="Ikona galerii"/>
           GALERIA
         </Link>
         <Link href="/kontakt">
-          <Image src={Phone} />
+          <Image src={Phone} alt="Ikona kontakt"/>
           KONTAKT
         </Link>
       </nav>

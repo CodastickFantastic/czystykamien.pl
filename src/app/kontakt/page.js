@@ -28,7 +28,7 @@ function KontaktPage() {
           </p>
           <div className={styles.iconSection}>
             <div className={styles.tile}>
-              <Image src={Location} width={75} height={75} />
+              <Image src={Location} width={75} height={75} alt="Ikona adresu"/>
               <h3>Adres</h3>
               <p>
                 05-077 Warszawa
@@ -37,12 +37,12 @@ function KontaktPage() {
               </p>
             </div>
             <div className={styles.tile}>
-              <Image src={Phone} width={75} height={75} />
+              <Image src={Phone} width={75} height={75} alt="Ikona telefonu"/>
               <h3>Telefon</h3>
               <p>501 721 417</p>
             </div>
             <div className={styles.tile}>
-              <Image src={Email} width={75} height={75} />
+              <Image src={Email} width={75} height={75} alt="Ikona email"/>
               <h3>Email</h3>
               <p>info@czystykamien.pl</p>
             </div>
