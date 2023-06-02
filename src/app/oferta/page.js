@@ -21,21 +21,23 @@ export default function OfferPage() {
         <MobileNav page="page" />
       </header>
       <main className={styles.main}>
-        <div className={styles.blackBg1}>
+        <section className={styles.blackBg1}>
           <div className="container">
             <h1>OFERTA</h1>
             <p>
               W naszej ofercie znajdą państwo rozmaity wybór usług.
-              <br className={styles.br} /><br/>
+              <br className={styles.br} />
+              <br />
               Wykonujemy prace zarówno zewnętrzne jak i te wewnątrz pomieszczeń.
-              <br className={styles.br}/><br/>
+              <br className={styles.br} />
+              <br />
               Poznaj szczegóły naszej oferty i zapoznaj się sugerowanymi cenami.
             </p>
             <div className={styles.services}>
               <div className={styles.service}>
                 <a href="#inDoorSection">
                   <div className={styles.insetShadowContainer}>
-                    <Image src={Indoor} alt="Czyszczenie wnętrz myjką parową"/>
+                    <Image src={Indoor} alt="Czyszczenie wnętrz myjką parową" />
                     <div className={styles.insetShadow} />
                   </div>
                   <h3>Prace Wewnętrzne</h3>
@@ -44,7 +46,10 @@ export default function OfferPage() {
               <div className={styles.service}>
                 <a href="#outDoorSection">
                   <div className={styles.insetShadowContainer}>
-                    <Image src={Outdoor} alt="Czyszczenie kosti brukowej urządzeniem pod dużym ciśnieniem"/>
+                    <Image
+                      src={Outdoor}
+                      alt="Czyszczenie kosti brukowej urządzeniem pod dużym ciśnieniem"
+                    />
                     <div className={styles.insetShadow} />
                   </div>
                   <h3>Prace Zewnętrzne</h3>
@@ -53,7 +58,7 @@ export default function OfferPage() {
               <div className={styles.service}>
                 <a href="#carSection">
                   <div className={styles.insetShadowContainer}>
-                    <Image src={Detailing} alt="Autodetailing"/>
+                    <Image src={Detailing} alt="Autodetailing" />
                     <div className={styles.insetShadow} />
                   </div>
                   <h3>Auto Detailing</h3>
@@ -61,16 +66,19 @@ export default function OfferPage() {
               </div>
             </div>
           </div>
-        </div>
-        <div id="outDoorSection">
+        </section>
+
+        <section id="outDoorSection">
           <OutdoorJobs />
-        </div>
-        <div id="inDoorSection">
+        </section>
+
+        <section id="inDoorSection">
           <IndoorJobs />
-        </div>
-        <div id="carSection">
+        </section>
+
+        <section id="carSection">
           <CarJobs />
-        </div>
+        </section>
       </main>
       <Footer />
     </div>

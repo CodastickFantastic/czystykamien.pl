@@ -21,39 +21,42 @@ export default function GaleryPage() {
         <MobileNav page="page" />
       </header>
       <main className={styles.main}>
-        <div className="container">
+        <section className="container">
           <h1>Galeria</h1>
           <div className={styles.galery}>
             <div className={styles.imageWrapper}>
-              <Image src={C1} alt="Efekty mycia ciśnieniowego"/>
+              <Image src={C1} alt="Efekty mycia ciśnieniowego" />
               <div className={styles.shadow} />
             </div>
             <div className={styles.imageWrapper}>
-              <Image src={C2} alt="Mycie ciśnieniowe kostki brukowej"/>
+              <Image src={C2} alt="Mycie ciśnieniowe kostki brukowej" />
               <div className={styles.shadow} />
             </div>
             <div className={styles.imageWrapper}>
-              <Image src={C3} alt="Mycie kostki"/>
+              <Image src={C3} alt="Mycie kostki" />
               <div className={styles.shadow} />
             </div>
             <div className={styles.imageWrapper}>
-              <Image src={C4} alt="Efekty mycia ciśnieniowego kostki brukowej"/>
+              <Image
+                src={C4}
+                alt="Efekty mycia ciśnieniowego kostki brukowej"
+              />
               <div className={styles.shadow} />
             </div>
             <div className={styles.imageWrapper}>
-              <Image src={C5} alt="Kostka brukowa po umyciu karcherem"/>
+              <Image src={C5} alt="Kostka brukowa po umyciu karcherem" />
               <div className={styles.shadow} />
             </div>
             <div className={styles.imageWrapper}>
-              <Image src={C6} alt="Czysta kostka brukowa"/>
+              <Image src={C6} alt="Czysta kostka brukowa" />
               <div className={styles.shadow} />
             </div>
             <div className={styles.imageWrapper}>
-              <Image src={C7} alt="Mycie płotu drewnianego"/>
+              <Image src={C7} alt="Mycie płotu drewnianego" />
               <div className={styles.shadow} />
             </div>
           </div>
-        </div>
+        </section>
       </main>
 
       <Footer />

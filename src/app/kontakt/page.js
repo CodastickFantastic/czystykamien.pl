@@ -19,46 +19,59 @@ function KontaktPage() {
       </header>
       <main className={styles.main}>
         <div className="container">
-          <h1>Kontakt</h1>
-          <p>
-            Posiadasz do nas jakies pytania? <br />
-            A może chcesz zarezerwować nasz czas dla siebie lub złożyć zapytanie
-            ofertowe jako firma? <br />
-            Nie zwlekaj i skontaktuj się z nami zanim zrobi to Twój sąsiad!
-          </p>
-          <div className={styles.iconSection}>
-            <div className={styles.tile}>
-              <Image src={Location} width={75} height={75} alt="Ikona adresu"/>
-              <h3>Adres</h3>
-              <p>
-                05-077 Warszawa
-                <br />
-                Graniczna 15A
-              </p>
+          <section>
+            <h1>Kontakt</h1>
+            <p>
+              Posiadasz do nas jakies pytania? <br />
+              A może chcesz zarezerwować nasz czas dla siebie lub złożyć
+              zapytanie ofertowe jako firma? <br />
+              Nie zwlekaj i skontaktuj się z nami zanim zrobi to Twój sąsiad!
+            </p>
+            <div className={styles.iconSection}>
+              <div className={styles.tile}>
+                <Image
+                  src={Location}
+                  width={75}
+                  height={75}
+                  alt="Ikona adresu"
+                />
+                <h3>Adres</h3>
+                <p>
+                  05-077 Warszawa
+                  <br />
+                  Graniczna 15A
+                </p>
+              </div>
+              <div className={styles.tile}>
+                <Image
+                  src={Phone}
+                  width={75}
+                  height={75}
+                  alt="Ikona telefonu"
+                />
+                <h3>Telefon</h3>
+                <p>501 721 417</p>
+              </div>
+              <div className={styles.tile}>
+                <Image src={Email} width={75} height={75} alt="Ikona email" />
+                <h3>Email</h3>
+                <p>info@czystykamien.pl</p>
+              </div>
             </div>
-            <div className={styles.tile}>
-              <Image src={Phone} width={75} height={75} alt="Ikona telefonu"/>
-              <h3>Telefon</h3>
-              <p>501 721 417</p>
+          </section>
+          <section>
+            <div className={styles.moreInfo}>
+              <section className={styles.contactForm}>
+                <h2>Formularz Kontaktowy</h2>
+                <ContactForm />
+              </section>
+              <section className={styles.googleMaps}>
+                <GoogleMaps />
+              </section>
             </div>
-            <div className={styles.tile}>
-              <Image src={Email} width={75} height={75} alt="Ikona email"/>
-              <h3>Email</h3>
-              <p>info@czystykamien.pl</p>
-            </div>
-          </div>
-          <div className={styles.moreInfo}>
-            <div className={styles.contactForm}>
-              <h2>Formularz Kontaktowy</h2>
-              <ContactForm />
-            </div>
-            <div className={styles.googleMaps}>
-              <GoogleMaps />
-            </div>
-          </div>
+          </section>
         </div>
       </main>
-
       <Footer />
     </div>
   );
