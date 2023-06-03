@@ -4,7 +4,6 @@ import MobileNav from "@/components/MobileNav";
 import Footer from "@/components/Footer";
 import ArticleTile from "@/components/ArticleTile";
 import C1 from "@/images/galery/comparission1.webp";
-import Image from "next/image";
 
 export default function Blog() {
   return (

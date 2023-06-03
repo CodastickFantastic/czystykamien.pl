@@ -3,12 +3,12 @@ import Footer from "@/components/Footer";
 import Image from "next/image";
 
 import HeroImage from "@/images/czysciciel.webp";
-import Czyszcenie from "@/images/czyszczenieKostki.webp";
+import Czyszcenie from "@/images/outdoor.webp";
 import Gwarancja from "@/images/icons/gwarancja.png";
 import Profesjonalizm from "@/images/icons/profesjonalizm.png";
 import Bezpieczenstwo from "@/images/icons/bezpieczenstwo.png";
-import CzystaKostka from "@/images/czystaKostka.webp";
-import SzczesliwyPracownik from "@/images/happyWorker.webp";
+import CzystaKostka from "@/images/galery/comparission4.webp";
+import SzczesliwyPracownik from "@/images/ourWorker.webp";
 import Chemia from "@/images/chemia.webp";
 import Checkbox from "@/images/icons/checkboxIcon.png";
 
