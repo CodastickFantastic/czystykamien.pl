@@ -35,12 +35,14 @@ function KontaktPage() {
                   height={75}
                   alt="Ikona adresu"
                 />
-                <h3>Adres</h3>
-                <p>
-                  05-077 Warszawa
-                  <br />
-                  Graniczna 15A
-                </p>
+                <h3>Usługi</h3>
+                Mycie KostkiBrukowej <br />
+                Mycie Elewacji <br />
+                Mycie Okien <br />
+                Mycie Dachów
+                <br />
+                Mycie Samochodów
+                <br />
               </div>
               <div className={styles.tile}>
                 <Image
