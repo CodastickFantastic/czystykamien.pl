@@ -16,7 +16,7 @@ import styles from "@/styles/about.module.scss";
 import ContactForm from "@/components/ContactForm";
 import MobileNav from "@/components/MobileNav";
 
-export default function AboutUsPage({ params, req }) {
+export default function AboutUsPage() {
   return (
     <div className={`pagesBackground ${styles.mobile}`}>
       <header>
@@ -52,10 +52,13 @@ export default function AboutUsPage({ params, req }) {
                 Nie zostawiamy miejsca na błędy oraz poprawki. Zaufaj nam a
                 przekonasz się, że praca zostanie wykonana w rzetelny sposób.
               </p>
-              <Image
-                src={Czyszcenie}
-                alt="Czyszcenie kostki brukowej wraz ze sprzętem"
-              />
+              <div className={styles.shadowContainer}>
+                <Image
+                  src={Czyszcenie}
+                  alt="Czyszcenie kostki brukowej wraz ze sprzętem"
+                />
+                <div className={styles.shadow} />
+              </div>
             </div>
           </div>
         </section>
