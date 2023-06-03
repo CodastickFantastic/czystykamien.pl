@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "@/styles/footer.module.scss";
 import Logo from "@/images/logo.png";
 import Link from "next/link";
+import Script from "next/script";
 
 export default async function Footer() {
   return (
@@ -57,6 +58,8 @@ export default async function Footer() {
               <input type="email" placeholder="Twój adres e-mail..." required />
               <button className="submit">Zapisz się</button>
             </form>
+            <p><Script src="https://sslseal.certum.pl/seal/tag?p=Y2VydHVt&s=MjExeDY0&f=c3Zn&l=cGw" async/></p>
+            <script id="seal_tag" type="text/javascript" src="https://sslseal.certum.pl/seal/tag?p=Y2VydHVt&s=MjExeDY0&f=c3Zn&l=cGw" async></script>
             <p className={styles.icons8}>
               Icons by: <a href="https://icons8.com/">ICONS8</a>
             </p>
