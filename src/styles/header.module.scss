@@ -80,6 +80,7 @@
     height: 100dvh;
     width: 100%;
     pointer-events: none;
+    transition: all 0.3s ease-in-out;
 
     .logo {
       height: 100px;
