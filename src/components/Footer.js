@@ -19,9 +19,9 @@ export default async function Footer() {
             <address>
               <h4>Adres</h4>
               <p>
-                05-077 Warszawa
+                Warszawa, Lublin,
                 <br />
-                Graniczna 15A
+                Łódź, Białystok
               </p>
               <br />
               <h4>Kontakt</h4>
@@ -44,12 +44,13 @@ export default async function Footer() {
             <Link href="/kontakt">Praca</Link>
           </div>
           <div className={styles.column}>
-            <h4>Dane Firmy</h4>
+            <h4>Usługi</h4>
             <p>
-              Czysty Kamie sp. z o.o. <br />
-              NIP: 0000000000 <br />
-              REGON: 000000000 <br />
-              KRS: 0000000000
+              <p>Mycie KostkiBrukowej</p>
+              <p>Mycie Elewacji</p>
+              <p>Mycie Okien</p>
+              <p>Mycie Dachów</p>
+              <p>Mycie Samochodów</p>
             </p>
           </div>
           <div className={styles.column}>
@@ -64,7 +65,7 @@ export default async function Footer() {
           </div>
         </div>
         <div className={styles.botPart}>
-          <p>&copy; 2023 Czysty Kamień sp. z o.o.</p>
+          <p>&copy; 2023 Czysty Kamień</p>
           <p>
             Projekt i realizacja: <Link href="/">Space Agency Marketing</Link>
           </p>

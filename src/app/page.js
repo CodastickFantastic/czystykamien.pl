@@ -4,6 +4,13 @@ import Navigation from "@/components/Header";
 import styles from "@/styles/homePage.module.scss";
 import MobileNav from "@/components/MobileNav";
 
+export async function generateMetadata(){
+  return {
+    title: "Czysty Kamień - Czyszczenie kostki brukowej, elewacji, ogródw oraz kanap i dywanów",
+    description: "Czysty Kamień to firma specjalizująca się w czyszceniu kostki brukowej, elewacji, ogrodów oraz kanap i dywanów. Z nami masz gwarancję, że twoja posesja będzie lśnić jak w dniu w któym została wybudowana.",
+  }
+}
+
 export default function Home() {
   return (
     <div className="homeBackground">
