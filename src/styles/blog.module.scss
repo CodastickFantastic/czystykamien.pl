@@ -12,3 +12,9 @@
     justify-content: space-around;
   }
 }
+
+@media (max-width: 900px) {
+  .mobile {
+    padding-top: 100px;
+  }
+}
