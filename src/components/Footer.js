@@ -58,19 +58,6 @@ export default async function Footer() {
               <input type="email" placeholder="Twój adres e-mail..." required />
               <button className="submit">Zapisz się</button>
             </form>
-            <Image
-              width={100}
-              height={40}
-              alt="SSL"
-              border="0"
-              id="ss_img"
-              src="https://www.seal.globalsign.com/SiteSeal/images/gs_noscript_100-40_en.gif"
-            />
-            <script
-              type="text/javascript"
-              src="https://www.seal.globalsign.com/SiteSeal/gmogs_image_100-40_en_blue.js"
-            ></script>
-            
             <p className={styles.icons8}>
               Icons by: <a href="https://icons8.com/">ICONS8</a>
             </p>
