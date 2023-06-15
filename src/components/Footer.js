@@ -17,7 +17,7 @@ export default async function Footer() {
           </div>
           <div className={styles.column}>
             <address>
-              <h4>Adres</h4>
+              <h4>Obszar Działalności</h4>
               <p>
                 Warszawa, Lublin,
                 <br />
@@ -45,13 +45,12 @@ export default async function Footer() {
           </div>
           <div className={styles.column}>
             <h4>Usługi</h4>
-            <p>
-              <p>Mycie KostkiBrukowej</p>
-              <p>Mycie Elewacji</p>
-              <p>Mycie Okien</p>
-              <p>Mycie Dachów</p>
-              <p>Mycie Samochodów</p>
-            </p>
+            <p>Mycie Kostki Brukowej</p>
+            <p>Mycie Elewacji</p>
+            <p>Pranie Tapicerki</p>
+            <p>Pranie Kanap</p>
+            <p>Pranie Foteli</p>
+            <p>Mycie Samochodów</p>
           </div>
           <div className={styles.column}>
             <h4>Newsletter</h4>

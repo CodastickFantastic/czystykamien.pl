@@ -35,14 +35,8 @@ function KontaktPage() {
                   height={75}
                   alt="Ikona adresu"
                 />
-                <h3>Usługi</h3>
-                Mycie KostkiBrukowej <br />
-                Mycie Elewacji <br />
-                Mycie Okien <br />
-                Mycie Dachów
-                <br />
-                Mycie Samochodów
-                <br />
+                <h3>Obszar Działalności</h3>
+                <p>Warszawa <br />Lublin <br /> Łódź <br /> Białystok</p>
               </div>
               <div className={styles.tile}>
                 <Image
