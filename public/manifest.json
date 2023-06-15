@@ -1,0 +1,32 @@
+{
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "display": "minimal-ui",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Czysty Kamie\u0144",
+    "short_name": "Czysty Kamie\u0144",
+    "description": "Mycie kostki brukowej, elewacji, p\u0142ot\u00f3w oraz pranie dywan\u00f3w, tapicerki i foetli.",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

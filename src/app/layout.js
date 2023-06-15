@@ -13,9 +13,11 @@ export const metadata = {
     "Czysty Kamień - Czyszczenie kostki brukowej, elewacji, ogródw oraz kanap i dywanów",
   description:
     "Czysty Kamień to firma specjalizująca się w czyszceniu kostki brukowej, elewacji, ogrodów oraz kanap i dywanów. Z nami masz gwarancję, że twoja posesja będzie lśnić jak w dniu w któym została wybudowana.",
+  manifest: "/manifest.json",
   icons: {
-    icon: "/favicons/favicon-16x16.png",
-    
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
 };
 
