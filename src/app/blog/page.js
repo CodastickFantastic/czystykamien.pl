@@ -9,7 +9,7 @@ import { getAllPosts } from "@/lib/postsApi";
 import Link from "next/link";
 
 export default function Blog() {
-  const posts = getAllPosts(["title", "date", "excerpt", "coverImage", "slug", "subject", "author"]);
+  const posts = getAllPosts(["title", "date", "description", "coverImage", "slug", "subject", "author"]);
 
   return (
     <div className={`pagesBackground ${styles.mobile}`}>

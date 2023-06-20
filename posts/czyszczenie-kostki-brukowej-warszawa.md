@@ -6,7 +6,7 @@ date: "2023-04-01"
 author: Jakub Wojtysiak
 subject: Pielęgnacja kostki brukowej
 coverImage: "/images/hero.webp"
-description: "tekst 2"
+description: "Nie wiesz jak samemu wyczyścić swoją kostkę brukową? A może jesteś zainteresowany w jaki sposób robią to profesjonaliści? Niezależnie od odpowiedzi przekonaj się jak samemu dokonać tego procesu."
 ---
 
 <div class="blackBgPost">
