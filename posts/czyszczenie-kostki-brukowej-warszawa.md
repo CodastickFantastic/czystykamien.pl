@@ -18,17 +18,17 @@ description: "Nie wiesz jak samemu wyczyścić swoją kostkę brukową? A może 
 <h2>Spis Treści</h2>
 <div class="blackBgPost">
  <ol class="container">
-    <li><a href="#1">Profesjonalne usługi mycia kostki</a></li>
-    <li><a href="#2">Czy można umyć kostkę brukową?</a></li>
-    <li><a href="#3">Czym umyć i wyczyścić kostkę brukową?</a></li>
-    <li><a href="#4">Jak wyczyścić brudną kostkę brukową?</a></li>
-    <li><a href="#5">Usuwanie plam i zabrudzeń z kostki brukowej</a></li>
-    <li><a href="#6">Czyszczenie kostki brukowej z mchu</a></li>
-    <li><a href="#7">Mycie i czyszczenie kostki brukowej w Warszawie i okolicach</a></li>
+    <li><a href="#a1">Profesjonalne usługi mycia kostki</a></li>
+    <li><a href="#a2">Czy można umyć kostkę brukową?</a></li>
+    <li><a href="#a3">Czym umyć i wyczyścić kostkę brukową?</a></li>
+    <li><a href="#a4">Jak wyczyścić brudną kostkę brukową?</a></li>
+    <li><a href="#a5">Usuwanie plam i zabrudzeń z kostki brukowej</a></li>
+    <li><a href="#a6">Czyszczenie kostki brukowej z mchu</a></li>
+    <li><a href="#a7">Mycie i czyszczenie kostki brukowej w Warszawie i okolicach</a></li>
  </ol>
 </div>
 
-<h2 id="1">Szukasz profesjonalnej usługi czyszczenia i mycia kostki brukowej w Warszawie i okolicach? </h2>
+<h2 id="a1">Szukasz profesjonalnej usługi czyszczenia i mycia kostki brukowej w Warszawie i okolicach? </h2>
 <div class="blackBgPost">
 <p class="container">Jeśli jesteś osoba zajętą lub wolisz oddać opiekę nad swoim brukiem w ręce profesjonalistów to nie mogłeś lepiej trafić. <br/><br/><strong>Nasza firma świadczy usługi profesjonalnego mycia kostki brukowej na terenie Warszawy i okolic</strong>. Usługa mycia i czyszczenia kostki jest wieloetapowa i obejmuję międzyinnymi:
 </p>
@@ -42,13 +42,13 @@ description: "Nie wiesz jak samemu wyczyścić swoją kostkę brukową? A może 
 <p class="container"><strong>Gwarantujemy profesjonalne czyszczenie kostki brukowej</strong>. Do każdego klienta podchodzimy w sposób indywidualny. Jesteśmy profesjonalną firmą i udzielamy porad w celu utrzymania jak najlepszego stanu powierzchni czyszczonych. <strong>Przyjmujemy każde zlecenie</strong> i do każdego klienta podchodzimy w sposób profesjonalny i indywidualny. Sprawdź naszą <a href="https://www.czystykamien.pl/oferta" target="_blank" rel="noopener">ofertę</a> lub <a href="https://www.czystykamien.pl/kontakt" target="_blank" rel="noopener">zarezerwuj termin</a>.</p>
 </div>
 
-<h2 id="2">Czy można umyć kostkę brukową?</h2>
+<h2 id="a2">Czy można umyć kostkę brukową?</h2>
 <div class="blackBgPost">
 <p class="container">Jeśli zastanawiasz się, <strong>czy można umyć kostkę brukową</strong> to odpowiedź na to pytanie brzmi <strong>"jak najbardziej tak"!</strong> <br/><br/>
 <strong>Kostka brukowa</strong>, podobnie jak każda inna powierzchnia zewnętrzna, jest narażona na działanie czynników atmosferycznych, zabrudzeń i plam. Często staje się matowa i traci swój pierwotny blask. Jednak dzięki odpowiednim metodom czyszczenia i mycia można przywrócić jej piękno i świeżość.</p>
 </div>
 
-<h2 id="3">Czym umyć i wyczyścić kostkę brukową ?</h2>
+<h2 id="a3">Czym umyć i wyczyścić kostkę brukową ?</h2>
 <div class="blackBgPost">
 <p class="container">Podstawowym narzędziem do mycia kostki brukowej jest <strong>woda pod ciśnieniem</strong>. Można użyć <strong>myjki ciśnieniowej</strong>, która skutecznie usuwa brud, mchy, glony, porosty i inne zanieczyszczenia z powierzchni kostki. Zachęcamy do używania specjalistycznych urządzeń o odpowiednio dużej mocy producentów takich jak <a href="https://www.kaercher.com/" target="_blank" rel="noopener">Karcher</a>. <br/><br />
 <a href="https://www.czystykamien.pl/sprzet" target="_blank" rel="noopener">Sprawdź nasze urządzenia</a>.<br/> <br/>
@@ -59,7 +59,7 @@ Nie zapominajmy również o tym, że silna chemia w połączniu ze słońcem mo�
 </div>
 
 
-<h2 id="4">Jak wyczyścić brudną kostkę brukową?</h2>
+<h2 id="a4">Jak wyczyścić brudną kostkę brukową?</h2>
 <div class="blackBgPost">
 <div class="container">
 <p>Aby <strong>pozbyć się zabrudzenia z kostki brukowej</strong> należy wykonać odpowiednie kroki. Efekty czyszczenia powinny być widoczne jak tylko kostka wyschnie. W tym celu <strong>przygotuj odopwiednio swoją kostkę</strong> granitową, betonową lub brukową.</p>
@@ -73,7 +73,7 @@ Nie zapominajmy również o tym, że silna chemia w połączniu ze słońcem mo�
 </div>
 </div>
 
-<h2 id="5">Usuwanie plam i zabrudzenia z kostki brukowej,<br>Czyszczenie kostki brukowej z oleju.</h2>
+<h2 id="a5">Usuwanie plam i zabrudzenia z kostki brukowej,<br>Czyszczenie kostki brukowej z oleju.</h2>
 <div class="blackBgPost">
 <div class="container">
 <p><strong>Plamy po oleju lub naloty rdzy są jednymi z najciężcych do usunięcia</strong>. Wykorzystanie samej myjki wysokoćiśnieniowej może nie przynieść porządanych rezultatów. W takim wypadku <strong>nalezy sięgnąć po odpowiednią chemię</strong> która wykorzystana w odpowiedni sposób usunie uporczywe plamy oraz nie zniszczy naszej kostki. </p>
@@ -82,7 +82,7 @@ Nie zapominajmy również o tym, że silna chemia w połączniu ze słońcem mo�
 </div>
 </div>
 
-<h2 id="6">Czyszczenie kostki brukowej z mchu</h2>
+<h2 id="a6">Czyszczenie kostki brukowej z mchu</h2>
 <div class="blackBgPost">
 <div class="container">
 <p>Mchy na kostce brukowej mogą <strong>nie tylko psuć jej estetykę</strong>, ale także stanowić<strong> zagrożenie dla bezpiecznego poruszania</strong> się. Poniżej przedstawimy skuteczne metody i porady, które pomogą Ci pozbyć się mchu z kostki brukowej.</p>
@@ -103,7 +103,7 @@ Nie zapominajmy również o tym, że silna chemia w połączniu ze słońcem mo�
 </div>
 </div>
 
-<h2 id="7">Mycie i czyszczenie kostki brukowej Warszawa i okolice</h2>
+<h2 id="a7">Mycie i czyszczenie kostki brukowej Warszawa i okolice</h2>
 <div class="blackBgPost">
 <div class="container">
 <p>Jeśli po przeczytaniu powyższego artykułu nie czujesz się na siłąch aby włąsnoręcznie wyczyścić swoją kostkę brukową zadzwoń do nas a zrobimy to za Ciebie. <strong>Oferujemy usługi mycia kostki brukowej w Warszawie i okolicach.</strong> Kompleksowa usługa mycia i czyszczenia przywróci dawny blask twojej posesji. Proponujemy czyszcznie w przystepnych cenach, w skład którego wchodzi: </p>

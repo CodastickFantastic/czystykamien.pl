@@ -8,7 +8,7 @@ export default function ArticleTile({ post }) {
   return (
     <article className={styles.articleTile}>
       <div className={styles.imageWrapper}>
-        <Image src={post.coverImage} width={200} height={200} />
+        <Image src={post.coverImage} width={900} height={300} alt="Zdjęcie zachęcające do przeczytania danego artykułu"/>
         <div className={styles.shadow}></div>
       </div>
       <div className={styles.articleDescription}>

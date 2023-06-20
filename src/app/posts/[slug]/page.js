@@ -7,7 +7,12 @@ import Footer from "@/components/Footer";
 import Image from "next/image";
 
 export default async function Post({ params }) {
-  const post = getPostsBySlug(params.slug, ["title", "author", "content", "coverImage"]);
+  const post = getPostsBySlug(params.slug, [
+    "title",
+    "author",
+    "content",
+    "coverImage",
+  ]);
 
   return (
     <div className={`pagesBackground ${styles.mobile}`}>
@@ -17,11 +22,14 @@ export default async function Post({ params }) {
       </header>
       <main className={styles.main}>
         <article>
-          <div className={styles.postHero}>
-            {/* <Image src={post.coverImage} width={1400} height={400}/>  */}
-            <h1>{post.title}</h1>
+          <div className="blackBgPost">
+            <div className="container">
+              <Image src={post.coverImage} width={1400} height={400} alt="Zdjęcie głowne na stronie bloga"/>
+            </div>
           </div>
-          
+
+          <h1>{post.title}</h1>
+
           <div
             className={styles.postContent}
             dangerouslySetInnerHTML={{ __html: post.content }}
