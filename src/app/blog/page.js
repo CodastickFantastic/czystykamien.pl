@@ -2,10 +2,15 @@ import styles from "@/styles/blog.module.scss";
 import Navigation from "@/components/Header";
 import MobileNav from "@/components/MobileNav";
 import Footer from "@/components/Footer";
-import ArticleTile from "@/components/ArticleTile";
+import PostPreview from "@/components/PostPreview";
 import C1 from "@/images/galery/comparission1.webp";
 
+import { getAllPosts } from "@/lib/postsApi";
+import Link from "next/link";
+
 export default function Blog() {
+  const posts = getAllPosts(["title", "date", "excerpt", "coverImage", "slug", "subject", "author"]);
+
   return (
     <div className={`pagesBackground ${styles.mobile}`}>
       <header>
@@ -16,60 +21,9 @@ export default function Blog() {
         <div className="container">
           <h1>Blog</h1>
           <div className={styles.articlesContainer}>
-            <ArticleTile
-              title="Pierwszy Post Na Naszym Blogu"
-              description="Profesjonalna pielęgnacja trawnika nie jest niczym ciężkim. Do spełnienia marzeń o posiadaniu idealnej trawy nie potrzeba niczego więcej jak odrobiny cierpliwości..."
-              subject="Pielęgnacja trawnika"
-              author="Jan Kowalski"
-              date="2021-01-01"
-              link="/blog/1"
-              image={C1}
-            />
-            <ArticleTile
-              title="Pierwszy Post Na Naszym Blogu"
-              description="Profesjonalna pielęgnacja trawnika nie jest niczym ciężkim. Do spełnienia marzeń o posiadaniu idealnej trawy nie potrzeba niczego więcej jak odrobiny cierpliwości..."
-              subject="Pielęgnacja trawnika"
-              author="Jan Kowalski"
-              date="2021-01-01"
-              link="/blog/1"
-              image={C1}
-            />
-            <ArticleTile
-              title="Pierwszy Post Na Naszym Blogu"
-              description="Profesjonalna pielęgnacja trawnika nie jest niczym ciężkim. Do spełnienia marzeń o posiadaniu idealnej trawy nie potrzeba niczego więcej jak odrobiny cierpliwości..."
-              subject="Pielęgnacja trawnika"
-              author="Jan Kowalski"
-              date="2021-01-01"
-              link="/blog/1"
-              image={C1}
-            />
-            <ArticleTile
-              title="Pierwszy Post Na Naszym Blogu"
-              description="Profesjonalna pielęgnacja trawnika nie jest niczym ciężkim. Do spełnienia marzeń o posiadaniu idealnej trawy nie potrzeba niczego więcej jak odrobiny cierpliwości..."
-              subject="Pielęgnacja trawnika"
-              author="Jan Kowalski"
-              date="2021-01-01"
-              link="/blog/1"
-              image={C1}
-            />
-            <ArticleTile
-              title="Pierwszy Post Na Naszym Blogu"
-              description="Profesjonalna pielęgnacja trawnika nie jest niczym ciężkim. Do spełnienia marzeń o posiadaniu idealnej trawy nie potrzeba niczego więcej jak odrobiny cierpliwości..."
-              subject="Pielęgnacja trawnika"
-              author="Jan Kowalski"
-              date="2021-01-01"
-              link="/blog/1"
-              image={C1}
-            />
-            <ArticleTile
-              title="Pierwszy Post Na Naszym Blogu"
-              description="Profesjonalna pielęgnacja trawnika nie jest niczym ciężkim. Do spełnienia marzeń o posiadaniu idealnej trawy nie potrzeba niczego więcej jak odrobiny cierpliwości..."
-              subject="Pielęgnacja trawnika"
-              author="Jan Kowalski"
-              date="2021-01-01"
-              link="/blog/1"
-              image={C1}
-            />
+            {posts.map((post) => (
+              <PostPreview post={post} key={post.title} />
+            ))}
           </div>
         </div>
       </main>
