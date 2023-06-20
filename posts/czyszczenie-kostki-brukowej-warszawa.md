@@ -76,9 +76,9 @@ Nie zapominajmy również o tym, że silna chemia w połączniu ze słońcem mo�
 <h2 id="a5">Usuwanie plam i zabrudzenia z kostki brukowej,<br>Czyszczenie kostki brukowej z oleju.</h2>
 <div class="blackBgPost">
 <div class="container">
-<p><strong>Plamy po oleju lub naloty rdzy są jednymi z najciężcych do usunięcia</strong>. Wykorzystanie samej myjki wysokoćiśnieniowej może nie przynieść porządanych rezultatów. W takim wypadku <strong>nalezy sięgnąć po odpowiednią chemię</strong> która wykorzystana w odpowiedni sposób usunie uporczywe plamy oraz nie zniszczy naszej kostki. </p>
+<p><strong>Plamy po oleju lub naloty rdzy są jednymi z najciężcych do usunięcia</strong>. Wykorzystanie samej myjki wysokoćiśnieniowej może nie przynieść porządanych rezultatów. W takim wypadku <strong>nalezy sięgnąć po odpowiednią chemię</strong> która wykorzystana w odpowiedni sposób usunie uporczywe plamy oraz nie zniszczy naszej kostki. </p><br/>
 <p><strong>W celu usunięcia uporczywych zabrudzeń</strong> rozporowadź preparat na umytą ale jeszcze wilgotną powierzchnię a nastepnie przy pomocy szczotki o twardym włosiu wszoruj premarat w pory kostki brukowej. <strong>Pozostaw go zgodnie z zaleceniami producenta</strong>. Pamiętaj aby <strong>przy wysokim nasłonecznieniu nie pozwolić preparatowi wyschnąc</strong>, gdyż może to doprowadzić do uszkodzenia kostki. <strong>Na sam konieć wypłucz preparat przy użyciu myjki wysokoćisnieowej.</strong> </p>
-<p><strong>Jeśli obawiasz się, że możesz uszkodzić swoją kostkę zleć usługę mycia kostki brukowej profesjonalnej firmie. </strong><br><a href="https://www.czystykamien.pl/kontakt" target="_blank" rel="noopener">Zarezerwuj nasz czas dla siebie!</a></p>
+<p><strong>Jeśli obawiasz się, że możesz uszkodzić swoją kostkę zleć usługę mycia kostki brukowej profesjonalnej firmie. </strong><br/><br/><a href="https://www.czystykamien.pl/kontakt" target="_blank" rel="noopener">Zarezerwuj nasz czas dla siebie!</a></p>
 </div>
 </div>
 
