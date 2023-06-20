@@ -1,12 +1,14 @@
 ---
-seo-title: Mycie i Czyszczenie kostki brukowej Warszawa - Czysty Kamień
-seo-description: Profesjonalne czyszczenie i mycie kostki brukowej Warszawa i okolice - Usługa mycia i czyszczenia kostki brukowej na terenie Warszawy - Zamów mycie kostki brukowej na terenie Warszawy i okolic.
+seoTitle: Mycie i Czyszczenie kostki brukowej Warszawa - Czysty Kamień
+seoDescription: Profesjonalne czyszczenie i mycie kostki brukowej Warszawa i okolice - Usługa mycia i czyszczenia kostki brukowej na terenie Warszawy - Zamów mycie kostki brukowej na terenie Warszawy i okolic.
 title: Profesjonalne mycie i czyszczenie kostki brukowej.
 date: "2023-04-01"
 author: Jakub Wojtysiak
 subject: Pielęgnacja kostki brukowej
 coverImage: "/images/hero.webp"
 description: "Nie wiesz jak samemu wyczyścić swoją kostkę brukową? A może jesteś zainteresowany w jaki sposób robią to profesjonaliści? Niezależnie od odpowiedzi przekonaj się jak samemu dokonać tego procesu."
+keywords: "Mycie i czyszczenie kostki brukowej Warszawa i okolice, Jak samodzielnie umyć kostkę brukową, Mycie kostki Warszawa"
+
 ---
 
 <div class="blackBgPost">

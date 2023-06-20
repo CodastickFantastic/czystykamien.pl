@@ -10,14 +10,27 @@ const nunito = Nunito({
 
 export const metadata = {
   title:
-    "Czysty Kamień - Czyszczenie kostki brukowej, elewacji, ogródw oraz kanap i dywanów",
+    "Czyszczenie kostki brukowej, elewacji, ogródw oraz kanap i dywanów - Czysty Kamień",
   description:
-    "Czysty Kamień to firma specjalizująca się w czyszceniu kostki brukowej, elewacji, ogrodów oraz kanap i dywanów. Z nami masz gwarancję, że twoja posesja będzie lśnić jak w dniu w któym została wybudowana.",
+    "Profesjonalne czyszczenie i mycie kostki brukowej, elewacji, ogrodów, kanap i dywanów Warszawa i okolice. Sprawdź naszą ofertę!",
   manifest: "/manifest.json",
   icons: {
     icon: "/favicon.png",
     shortcut: "/favicon.png",
     apple: "/favicon.png",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
 };
 

@@ -6,7 +6,23 @@ import MobileNav from "@/components/MobileNav";
 import Footer from "@/components/Footer";
 import Image from "next/image";
 
-export default async function Post({ params }) {
+export async function generateMetadata({ params }){
+  const post = getPostsBySlug(params.slug, [
+    "seoTitle",
+    "seoDescription",
+    "keywords",
+    "coverImage",
+    "author"
+  ]);
+
+  return {
+    title: post.seoTitle,
+    description: post.seoDescription,
+    keywords: post.keywords,
+  };
+}
+
+export default function Post({ params }) {
   const post = getPostsBySlug(params.slug, [
     "title",
     "author",
