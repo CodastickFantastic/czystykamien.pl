@@ -1,5 +1,5 @@
 import { getPostsBySlug } from "@/lib/postsApi";
-import markdownToHtml from "@/lib/markdownToHtml";
+// import markdownToHtml from "@/lib/markdownToHtml";
 import styles from "@/styles/posts.module.scss";
 import Navigation from "@/components/Header";
 import MobileNav from "@/components/MobileNav";
@@ -8,11 +8,6 @@ import Image from "next/image";
 
 export default async function Post({ params }) {
   const post = getPostsBySlug(params.slug, ["title", "author", "content", "coverImage"]);
-  // console.log(post.content)
-
-  const content = await markdownToHtml(post.content);
-  console.log("kontent", content);
-  console.log(post.coverImage)
 
   return (
     <div className={`pagesBackground ${styles.mobile}`}>
