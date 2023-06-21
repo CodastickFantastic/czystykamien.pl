@@ -14,6 +14,7 @@ export const metadata = {
   description:
     "Profesjonalne czyszczenie i mycie kostki brukowej, elewacji, ogrodów, kanap i dywanów Warszawa i okolice. Sprawdź naszą ofertę!",
   manifest: "/manifest.json",
+  themeColor: "#000000",
   icons: {
     icon: "/favicon.png",
     shortcut: "/favicon.png",
