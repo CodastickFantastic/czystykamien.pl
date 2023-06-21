@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "@/styles/footer.module.scss";
 import Logo from "@/images/logo.png";
 import Link from "next/link";
-import Script from "next/script";
+import NewsletterForm from "./NewsletterForm";
 
 export default async function Footer() {
   return (
@@ -54,10 +54,7 @@ export default async function Footer() {
           </div>
           <div className={styles.column}>
             <h4>Newsletter</h4>
-            <form>
-              <input type="email" placeholder="Twój adres e-mail..." required />
-              <button className="submit">Zapisz się</button>
-            </form>
+            <NewsletterForm />
             <p className={styles.icons8}>
               Icons by: <a href="https://icons8.com/">ICONS8</a>
             </p>

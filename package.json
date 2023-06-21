@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@react-google-maps/api": "^2.18.1",
     "date-fns": "^2.30.0",
     "eslint": "8.41.0",
