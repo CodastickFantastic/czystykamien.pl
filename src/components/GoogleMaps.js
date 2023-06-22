@@ -14,7 +14,7 @@ export default function GoogleMaps() {
 
 function Map() {
   const cetner = useMemo(
-    () => ({ lat: 52.217299840172316, lng: 21.21916430674691 }),
+    () => ({ lat: 52.20681578738545, lng: 21.137844335582017 }),
     []
   );
 
