@@ -11,7 +11,7 @@ keywords: "Ile kosztuje mycie kostki brukowej, mycie kostki brukowej cennik 2023
 ---
 
 <div class="blackBgPost">
-<p class="container">Regularna pielęgnacja i mycie kostki brukowej to dla wielu właścicieli budynków to spore wyzwanie. Intenswyne opady oraz mocno zacienione miejsca sprzyjają powstawaniu mchu na naszym bruku. Zabrudzenia i porosty przy nieodpowiedniej pielegnacji posesji powstają bardzo szybko, niestety pozbycie się ich może nie być już tak łatwym zadaniem. Jeśli jesteś ciekaw jak samodzielnie przeprowadzić proces czyszczenia oraz impregnacji kostki brukowej to zapraszamy do naszego poprzedniego artykułu w którym wszystko wyjaśniliśmy krok po kroku - <a href="https://www.czystykamien.pl/posts/czyszczenie-kostki-brukowej-warszawa" target="_blank" rel="noopener">"Profesjonalne mycie i czyszczenie kostki brukowej"</a></p>
+<p class="container">Regularna pielęgnacja i mycie kostki brukowej to dla wielu właścicieli budynków spore wyzwanie. Intenswyne opady oraz mocno zacienione miejsca sprzyjają powstawaniu mchu na naszym bruku. Zabrudzenia i porosty przy nieodpowiedniej pielegnacji posesji powstają bardzo szybko, niestety pozbycie się ich może nie być już tak łatwym zadaniem. Jeśli jesteś ciekaw jak samodzielnie przeprowadzić proces czyszczenia oraz impregnacji kostki brukowej to zapraszamy do naszego poprzedniego artykułu w którym wszystko wyjaśniliśmy krok po kroku - <a href="https://www.czystykamien.pl/posts/czyszczenie-kostki-brukowej-warszawa" target="_blank" rel="noopener">"Profesjonalne mycie i czyszczenie kostki brukowej"</a></p>
 </div>
 
 <h2>Spis Treści</h2>
