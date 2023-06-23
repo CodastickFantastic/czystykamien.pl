@@ -17,14 +17,14 @@ export default async function Footer() {
           </div>
           <div className={styles.column}>
             <address>
-              <h4>Obszar Działalności</h4>
+            <p className={styles.colTitle}>Obszar Działalności</p>
               <p>
                 Warszawa, Lublin,
                 <br />
                 Łódź, Białystok
               </p>
               <br />
-              <h4>Kontakt</h4>
+              <p className={styles.colTitle}>Kontakt</p>
               <p>
                 <Link href="mailto:info@czysykamien.pl">
                   info@czystykamien.pl
@@ -35,7 +35,7 @@ export default async function Footer() {
             </address>
           </div>
           <div className={styles.column}>
-            <h4>Informacje</h4>
+            <p className={styles.colTitle}>Informacje</p>
             <Link href="/kontakt">Oferta dla Firm</Link>
             <Link href="/kontakt">Wypożyczanie Sprzętu</Link>
             <Link href="/">Polityka Prywatności</Link>
@@ -44,7 +44,7 @@ export default async function Footer() {
             <Link href="/kontakt">Praca</Link>
           </div>
           <div className={styles.column}>
-            <h4>Usługi</h4>
+          <p className={styles.colTitle}>Usługi</p>
             <p>Mycie Kostki Brukowej</p>
             <p>Mycie Elewacji</p>
             <p>Pranie Tapicerki</p>
@@ -53,7 +53,7 @@ export default async function Footer() {
             <p>Mycie Samochodów</p>
           </div>
           <div className={styles.column}>
-            <h4>Newsletter</h4>
+          <p className={styles.colTitle}>Newsletter</p>
             <NewsletterForm />
             <p className={styles.icons8}>
               Icons by: <a href="https://icons8.com/">ICONS8</a>
