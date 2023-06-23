@@ -40,7 +40,7 @@ export default function Post({ params }) {
         <article>
           <div className="blackBgPost">
             <div className="container">
-              <Image src={post.coverImage} width={1400} height={400} alt="Zdjęcie głowne na stronie bloga"/>
+              <Image src={post.coverImage} width={1000} height={400} alt="Zdjęcie głowne na stronie bloga" priority/>
             </div>
           </div>
 
