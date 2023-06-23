@@ -21,7 +21,7 @@ export default function OutdoorJobs() {
   return (
     <>
       <div className={styles.transparentBg}>
-        <h2>Prace Zewnętrzne</h2>
+        <h3>Prace Zewnętrzne</h3>
         <div className={styles.isometricOutdoorContainer}>
           <Image
             src={IsometricOutdoor}

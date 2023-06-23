@@ -12,7 +12,7 @@ export default function IndoorJobs() {
   return (
     <>
       <div className={styles.transparentBg}>
-        <h2>Prace Wewnętrzne</h2>
+        <h3>Prace Wewnętrzne</h3>
         <div className={styles.isometricIndoorContainer}>
           <Image
             src={IsometricIndoor}

@@ -32,6 +32,7 @@ export default function AboutUsPage() {
                   src={HeroImage}
                   className={styles.firstImg}
                   alt="Osoba myjąca kostkę brkuową"
+                  priority
                 />
                 <div className={styles.innerShadow1} />
               </div>
@@ -66,7 +67,7 @@ export default function AboutUsPage() {
           <div className={styles.transparentBg}>
             <div className={`container ${styles.pros}`}>
               <Image src={Gwarancja} alt="Ikona gwarancja" />
-              <h3>Gwarancja Jakości oraz Najniższej Ceny</h3>
+              <h2>Gwarancja Jakości oraz Najniższej Ceny</h2>
             </div>
           </div>
           <div className={styles.blackBg}>
@@ -97,7 +98,7 @@ export default function AboutUsPage() {
           <div className={styles.transparentBg}>
             <div className={`container ${styles.pros}`}>
               <Image src={Profesjonalizm} alt="Ikona profesjonalizm" />
-              <h3>Usługa Szyta Na Miarę</h3>
+              <h2>Usługa Szyta Na Miarę</h2>
             </div>
           </div>
           <div className={styles.blackBg}>
@@ -126,7 +127,7 @@ export default function AboutUsPage() {
           <div className={styles.transparentBg}>
             <div className={`container ${styles.pros}`}>
               <Image src={Bezpieczenstwo} alt="Ikona bezpieczeństwo" />
-              <h3>Zabezpieczenie To Podstawa</h3>
+              <h2>Zabezpieczenie To Podstawa</h2>
             </div>
           </div>
           <div className={styles.blackBg}>
@@ -156,7 +157,7 @@ export default function AboutUsPage() {
           </div>
         </section>
         <section className={styles.blackBg}>
-          <h2>NIE ZWLEKAJ I ZAMÓW CZYSZCZENIE JUŻ DZIŚ</h2>
+          <h3>NIE ZWLEKAJ I ZAMÓW CZYSZCZENIE JUŻ DZIŚ</h3>
           <div className={styles.contactForm}>
             <div className={styles.left}>
               <div className={styles.feature}>

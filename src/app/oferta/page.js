@@ -37,10 +37,10 @@ export default function OfferPage() {
               <div className={styles.service}>
                 <a href="#inDoorSection">
                   <div className={styles.insetShadowContainer}>
-                    <Image src={Indoor} alt="Czyszczenie wnętrz myjką parową" />
+                    <Image src={Indoor} alt="Czyszczenie wnętrz myjką parową" priority/>
                     <div className={styles.insetShadow} />
                   </div>
-                  <h3>Prace Wewnętrzne</h3>
+                  <h2>Prace Wewnętrzne</h2>
                 </a>
               </div>
               <div className={styles.service}>
@@ -49,19 +49,20 @@ export default function OfferPage() {
                     <Image
                       src={Outdoor}
                       alt="Czyszczenie kosti brukowej urządzeniem pod dużym ciśnieniem"
+                      priority
                     />
                     <div className={styles.insetShadow} />
                   </div>
-                  <h3>Prace Zewnętrzne</h3>
+                  <h2>Prace Zewnętrzne</h2>
                 </a>
               </div>
               <div className={styles.service}>
                 <a href="#carSection">
                   <div className={styles.insetShadowContainer}>
-                    <Image src={Detailing} alt="Autodetailing" />
+                    <Image src={Detailing} alt="Autodetailing" priority/>
                     <div className={styles.insetShadow} />
                   </div>
-                  <h3>Auto Detailing</h3>
+                  <h2>Auto Detailing</h2>
                 </a>
               </div>
             </div>

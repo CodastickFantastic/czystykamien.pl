@@ -6,7 +6,6 @@ import PostPreview from "@/components/PostPreview";
 import C1 from "@/images/galery/comparission1.webp";
 
 import { getAllPosts } from "@/lib/postsApi";
-import Link from "next/link";
 
 export default function Blog() {
   const posts = getAllPosts(["title", "date", "description", "coverImage", "slug", "subject", "author"]);

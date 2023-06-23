@@ -6,7 +6,7 @@ export default function CarJobs() {
   return (
     <>
       <div className={styles.transparentBg}>
-        <h2>Auto Detailing</h2>
+        <h3>Auto Detailing</h3>
         <div className={styles.isometricCarContainer}>
           <Image src={IsometricCar} alt="Ilustracja izometryczna samochodu" />
         </div>

@@ -1,14 +1,14 @@
-import styles from "@/styles/articleTile.module.scss";
+import styles from "@/styles/blogPreview.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 
 import DateFormatter from "./DateFormatter";
 
-export default function ArticleTile({ post }) {
+export default function PostPreview({ post }) {
   return (
     <article className={styles.articleTile}>
       <div className={styles.imageWrapper}>
-        <Image src={post.coverImage} width={900} height={300} alt="Zdjęcie zachęcające do przeczytania danego artykułu"/>
+        <Image src={post.coverImage} width={1200} height={675} alt="Zdjęcie zachęcające do przeczytania danego artykułu"/>
         <div className={styles.shadow}></div>
       </div>
       <div className={styles.articleDescription}>

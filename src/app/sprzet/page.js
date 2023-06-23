@@ -51,7 +51,7 @@ export default function EquipmentPage() {
                   zarówno sprzęt jak i chemię do zlecanej przez Ciebie pracy.
                 </p>
                 <div className={styles.imageContainer}>
-                  <Image src={Worker} alt="Pracownik firma sprzątająca" />
+                  <Image src={Worker} alt="Pracownik firma sprzątająca" priority/>
                   <div className={styles.shadow} />
                 </div>
               </div>
