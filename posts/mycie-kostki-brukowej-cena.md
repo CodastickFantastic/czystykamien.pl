@@ -2,7 +2,7 @@
 seoTitle: Mycie kostki brukowej cennik - Jaka cena za m2 czysczenia?
 seoDescription: Sprawdź ile kosztuje prodesjonalne mycie kostki brukowej w twojej okolicy. Cena czyszczenia jest uzależniona od wielu czynników. Poznaj szczegółowy cennik.
 title: Mycie kostki brukowej - cena i zakres usługi - cennik.
-date: "2023-04-23"
+date: "2023-04-23T12:00:00"
 author: Jakub Wojtysiak
 subject: Pielęgnacja kostki brukowej
 coverImage: "/images/posts/blog2.webp"
