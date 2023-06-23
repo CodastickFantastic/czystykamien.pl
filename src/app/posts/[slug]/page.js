@@ -19,7 +19,7 @@ export async function generateMetadata({ params }){
     title: post.seoTitle,
     description: post.seoDescription,
     keywords: post.keywords,
-    author: post.author,
+    authors: [{name: post.author}],
   };
 }
 
