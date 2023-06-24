@@ -26,8 +26,8 @@ export default async function Footer() {
               <br />
               <p className={styles.colTitle}>Kontakt</p>
               <p>
-                <Link href="mailto:info@czysykamien.pl">
-                  info@czystykamien.pl
+                <Link href="mailto:it.jakub.wojtysiak@gmail.com">
+                  it.jakub.wojtysiak@gmail.com
                 </Link>
                 <br />
                 <Link href="tel:+48501721417">+48 501 721 417</Link>

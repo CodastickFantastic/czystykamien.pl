@@ -51,7 +51,7 @@ function KontaktPage() {
               <div className={styles.tile}>
                 <Image src={Email} width={75} height={75} alt="Ikona email" />
                 <h2>Email</h2>
-                <p>info@czystykamien.pl</p>
+                <p>it.jakub.wojtysiak@gmail.com</p>
               </div>
             </div>
           </section>
