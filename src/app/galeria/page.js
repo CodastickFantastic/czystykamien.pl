@@ -13,6 +13,13 @@ import C7 from "@/images/galery/comparission7.webp";
 
 import styles from "@/styles/galeryPage.module.scss";
 
+export const metadata = {
+  title:
+    "Efekty przed i po czyszczenia kostki brukowej, elewacji, ogrodów, kanap i dywanów - Czysty Kamień",
+  description:
+    "Zobacz efekty naszej pracy. Przed i po czyszczeniu kostki brukowej, elewacji, ogrodów, kanap i dywanów.",
+};
+
 export default function GaleryPage() {
   return (
     <div className={`pagesBackground ${styles.mobile}`}>

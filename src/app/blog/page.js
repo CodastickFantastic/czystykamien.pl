@@ -3,7 +3,6 @@ import Navigation from "@/components/Header";
 import MobileNav from "@/components/MobileNav";
 import Footer from "@/components/Footer";
 import PostPreview from "@/components/PostPreview";
-import C1 from "@/images/galery/comparission1.webp";
 
 import { getAllPosts } from "@/lib/postsApi";
 
