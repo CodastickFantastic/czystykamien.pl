@@ -10,9 +10,34 @@ import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import MobileNav from "@/components/MobileNav";
 
+export const metadata = {
+  title:
+    "Kontakt - Czysty Kamień",
+  description:
+    "Zamów usługę mycia ciśnieniowego lub prania trapicerki już dziś. Skontaktuj się z nami telefonicznie lub mailowo.",
+};
+
 function KontaktPage() {
+  const jsonLdWebPage = {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Strona Kontaktowa",
+    "url": "https://czystykamien.pl/kontakt",
+    "isFamilyFriendly": "true",
+    "description": "Mycie i czyszczenie kostki brukowej, elewacji, ogrodów, kanap i dywanów. Zadzwoń i zarezerwuj usługę już dziś.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Czysty Kamień",
+      "url": "https://czystykamien.pl"
+    }
+  }
+
   return (
     <div className={`pagesBackground ${styles.mobile}`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdWebPage) }}
+      />
       <header>
         <Navigation type="top" page="normal" />
         <MobileNav page="page" />

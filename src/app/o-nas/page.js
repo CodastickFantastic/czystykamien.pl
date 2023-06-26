@@ -16,9 +16,35 @@ import styles from "@/styles/about.module.scss";
 import ContactForm from "@/components/ContactForm";
 import MobileNav from "@/components/MobileNav";
 
+
+export const metadata = {
+  title:
+    "O nas - Czysty Kamień",
+  description:
+    "Poznajmy się bliżej. Dowiedz się więcej o naszej firmie oraz o tym jakie usługi oferujemy oraz jakie utrzymujemy standardy.",
+};
+
 export default function AboutUsPage() {
+  const jsonLdWebPage = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "O nas",
+    "url": "https://czystykamien.pl/o-nas",
+    "isFamilyFriendly": "true",
+    "description": "Poznajmy się bliżej. Dowiedz się więcej o naszej firmie oraz o tym jakie usługi oferujemy oraz jakie utrzymujemy standardy.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Czysty Kamień",
+      "url": "https://czystykamien.pl"
+    }
+  }
+
   return (
     <div className={`pagesBackground ${styles.mobile}`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdWebPage) }}
+      />
       <header>
         <Navigation type="top" page="normal" />
         <MobileNav page="page" />

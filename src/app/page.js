@@ -81,7 +81,7 @@ export default function Home() {
     "publisher": {
       "@type": "Organization",
       "name": "Czysty Kamień",
-      "url": "https://czystykamien.pl",
+      "url": "https://czystykamien.pl"
     }
   }
 

@@ -16,7 +16,7 @@ import MobileNav from "@/components/MobileNav";
 
 export const metadata = {
   title:
-    "Sprzęt do czyszczenia kostki brukowej, elewacji oraz tapicerki, kanap i dywanów - Czysty Kamień",
+    "Sprzęt - Czysty Kamień",
   description:
     "Poznaj sprzęt który wykorzystujemy do mycia i czyszczenia kostki brukowej oraz do prania tapicerki.",
 };
@@ -27,6 +27,7 @@ export default function EquipmentPage() {
     "@type": "WebPage",
     "name": "Nasz Sprzęt",
     "url": "https://czystykamien.pl/sprzet",
+    "isFamilyFriendly": "true",
     "description": "Poznaj sprzęt który wykorzystujemy do mycia i czyszczenia kostki brukowej oraz do prania tapicerki.",
     "publisher": {
       "@type": "Organization",
