@@ -17,17 +17,13 @@ export default async function Footer() {
           </div>
           <div className={styles.column}>
             <address>
-            <p className={styles.colTitle}>Obszar Działalności</p>
-              <p>
-                Warszawa, Lublin,
-                <br />
-                Łódź, Białystok
-              </p>
+            <p className={styles.colTitle}>Adres</p>
+            <p>Lebiodowa 20 <br/> Warszawa</p>
               <br />
               <p className={styles.colTitle}>Kontakt</p>
               <p>
-                <Link href="mailto:it.jakub.wojtysiak@gmail.com">
-                  it.jakub.wojtysiak@gmail.com
+                <Link href="mailto:czystykamien24@gmail.com">
+                  czystykamien24@gmail.com
                 </Link>
                 <br />
                 <Link href="tel:+48501721417">+48 501 721 417</Link>
