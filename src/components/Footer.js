@@ -17,8 +17,8 @@ export default async function Footer() {
           </div>
           <div className={styles.column}>
             <address>
-            <p className={styles.colTitle}>Adres</p>
-            <p>Lebiodowa 20 <br/> Warszawa</p>
+              <p className={styles.colTitle}>Adres</p>
+              <p>Lebiodowa 20 <br /> Warszawa</p>
               <br />
               <p className={styles.colTitle}>Kontakt</p>
               <p>
@@ -34,13 +34,13 @@ export default async function Footer() {
             <p className={styles.colTitle}>Informacje</p>
             <Link href="/kontakt">Oferta dla Firm</Link>
             <Link href="/kontakt">Wypożyczanie Sprzętu</Link>
-            <Link href="/">Polityka Prywatności</Link>
+            <Link href="/polityka-prywatnosci">Polityka Prywatności</Link>
             <Link href="/">Regulamin</Link>
             <Link href="/">RODO</Link>
             <Link href="/kontakt">Praca</Link>
           </div>
           <div className={styles.column}>
-          <p className={styles.colTitle}>Usługi</p>
+            <p className={styles.colTitle}>Usługi</p>
             <p>Mycie Kostki Brukowej</p>
             <p>Mycie Elewacji</p>
             <p>Pranie Tapicerki</p>
@@ -49,7 +49,7 @@ export default async function Footer() {
             <p>Mycie Samochodów</p>
           </div>
           <div className={styles.column}>
-          <p className={styles.colTitle}>Newsletter</p>
+            <p className={styles.colTitle}>Newsletter</p>
             <NewsletterForm />
             <p className={styles.icons8}>
               Icons by: <a href="https://icons8.com/">ICONS8</a>
