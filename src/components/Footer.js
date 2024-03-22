@@ -22,10 +22,10 @@ export default async function Footer() {
               <br />
               <p className={styles.colTitle}>Kontakt</p>
               <p>
-                <Link href="mailto:czystykamien24@gmail.com">
+                {/* <Link href="mailto:czystykamien24@gmail.com">
                   czystykamien24@gmail.com
-                </Link>
-                <br />
+                </Link> */}
+                {/* <br /> */}
                 <Link href="tel:+48501721417">+48 501 721 417</Link>
               </p>
             </address>
@@ -34,9 +34,7 @@ export default async function Footer() {
             <p className={styles.colTitle}>Informacje</p>
             <Link href="/kontakt">Oferta dla Firm</Link>
             <Link href="/kontakt">Wypożyczanie Sprzętu</Link>
-            <Link href="/polityka-prywatnosci">Polityka Prywatności</Link>
-            <Link href="/">Regulamin</Link>
-            <Link href="/">RODO</Link>
+            {/* <Link href="/polityka-prywatnosci">Polityka Prywatności</Link> */}
             <Link href="/kontakt">Praca</Link>
           </div>
           <div className={styles.column}>
@@ -49,8 +47,8 @@ export default async function Footer() {
             <p>Mycie Samochodów</p>
           </div>
           <div className={styles.column}>
-            <p className={styles.colTitle}>Newsletter</p>
-            <NewsletterForm />
+            {/* <p className={styles.colTitle}>Newsletter</p> */}
+            {/* <NewsletterForm /> */}
             <p className={styles.icons8}>
               Icons by: <a href="https://icons8.com/">ICONS8</a>
             </p>

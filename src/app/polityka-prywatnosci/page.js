@@ -1,10 +1,8 @@
-import Link from "next/link";
 import Navigation from "@/components/Header";
-import Image from "next/image";
-import Hero from "@/images/hero.webp";
+import MobileNav from "@/components/MobileNav";
 
 import styles from "@/styles/homePage.module.scss";
-import MobileNav from "@/components/MobileNav";
+
 
 export const metadata = {
     title:
@@ -13,25 +11,19 @@ export const metadata = {
         "Dowiedz się więcej na temat informacji RODO oraz Cookies wykorzysytywanych przez nasz serwis",
 };
 
-export default function Home() {
-
+export default function PolitykaPrywatnosci() {
     return (
-        <div className={styles.homeHero}>
+        <div className={styles.policy}>
             <div>
                 <header>
                     <Navigation type="bottom" />
                     <MobileNav page="main" />
                 </header>
-                <main>
-                    <div className={styles.heroSection}>
-                        <div className="container">
-                            <div className={styles.heroBorders}>
-                                <p>
-                                    Polityka Prywatnosci test
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                <main className={`${styles.policy} container`}>
+                    <h1>Polityka Prywatnosci</h1>
+                    <section className={styles.section}>
+                        <h2>Administrator Danych Osobowych</h2>
+                    </section>
                 </main>
             </div>
         </div>

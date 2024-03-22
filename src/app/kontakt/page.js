@@ -73,14 +73,14 @@ function KontaktPage() {
                 <h2>Telefon</h2>
                 <p>501 721 417</p>
               </div>
-              <div className={styles.tile}>
+              {/* <div className={styles.tile}>
                 <Image src={Email} width={75} height={75} alt="Ikona email" />
                 <h2>Email</h2>
                 <p>czystykamien24@gmail.com</p>
-              </div>
+              </div> */}
             </div>
           </section>
-          <section>
+          {/* <section>
             <div className={styles.moreInfo}>
               <section className={styles.contactForm}>
                 <h3>Formularz Kontaktowy</h3>
@@ -90,7 +90,7 @@ function KontaktPage() {
                 <GoogleMaps />
               </section>
             </div>
-          </section>
+          </section> */}
         </div>
       </main>
       <Footer />

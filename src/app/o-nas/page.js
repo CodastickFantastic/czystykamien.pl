@@ -219,9 +219,9 @@ export default function AboutUsPage() {
                 <p>Gwarancja Jakości</p>
               </div>
             </div>
-            <div className={styles.right}>
+            {/* <div className={styles.right}>
               <ContactForm />
-            </div>
+            </div> */}
           </div>
         </section>
       </main>
